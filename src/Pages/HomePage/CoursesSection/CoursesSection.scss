@@ -1,0 +1,29 @@
+.CoursesWrapper {
+    .sectionTop {
+        display: grid;
+        align-items: flex-end;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+
+        .title{
+            grid-column-start: 1;
+        }
+
+        a {
+            color: #FF3F3A;
+            justify-self: end;
+            padding: 10px 30px;
+            border-radius: 4px;
+            height: fit-content;
+            border: 1px solid #FF3F3A;
+        }
+    }
+
+    .itemsWrapper {
+        display: grid;
+        padding-top: 50px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@import './Courses_media.scss';

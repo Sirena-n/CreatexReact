@@ -1,0 +1,86 @@
+@import '../../../Styles/Variables';
+
+@include breakpoint(large) {
+    .Events {
+        .Filter {
+
+            label,
+            .grids {
+                select {
+                    width: 120px;
+                }
+            }
+
+            .Search {
+                width: 200px;
+            }
+        }
+    }
+}
+
+@include breakpoint(medium) {
+    .Events {
+        .Filter {
+
+            label,
+            .grids {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@include breakpoint(small) {
+    .Events {
+        .Filter {
+            column-gap: 10px;
+
+            label,
+            .grids {
+                column-gap: 8px;
+
+                select {
+                    width: 90px;
+                    padding: 0 8px;
+                }
+            }
+
+            .Search {
+                width: 180px;
+            }
+        }
+    }
+}
+
+@include breakpoint(xsmall) {
+    .Events {
+        padding-top: 60px;
+
+        .Filter {
+            row-gap: 20px;
+            margin: 20px 0;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+
+            label,
+            .grids {
+                column-gap: 8px;
+
+                select {
+                    width: 90px;
+                    padding: 0 8px;
+                }
+            }
+
+            .pages {
+                display: none;
+            }
+
+            .Search {
+                width: 100%;
+                grid-row: 1;
+                grid-column: 1/3;
+            }
+        }
+    }
+}

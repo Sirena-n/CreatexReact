@@ -1,0 +1,204 @@
+@import '../../../Styles/Variables';
+
+@include breakpoint (medium) {
+    .AboutUsFirst {
+        margin: 0;
+        row-gap: 120px;
+        padding: 80px 0 100px;
+
+        .onlineSchoolSection {
+            .textSide {
+                p {
+                    padding: 20px 0 50px;
+                }
+
+                .Links {
+
+                    a {
+                        padding: 7px 30px;
+
+                    }
+                }
+            }
+
+            img {
+                height: 80%;
+            }
+        }
+    }
+}
+
+@include breakpoint (small) {
+    .AboutUsFirst {
+        row-gap: 100px;
+
+        .onlineSchoolSection {
+            column-gap: 80px;
+
+            .textSide {
+                h2 {
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    font-size: 14px;
+                    padding: 10px 0 30px;
+                }
+
+                .Links {
+
+                    a {
+                        font-size: 10px;
+                        padding: 6px 18px;
+                    }
+                }
+            }
+
+            img {
+                height: 80%;
+            }
+        }
+
+        .VideoSection {
+            justify-content: space-between;
+            grid-template-columns: 0.6fr 0.4fr;
+
+            .description {
+                li {
+                    h2 {
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+
+        .coreValues {
+            &__Wrapper {
+                column-gap: 50px;
+
+                .value {
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+
+                    h3 {
+                        font-size: 14px;
+                        white-space: nowrap;
+                        padding: 13px 0 5px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+
+                    &:nth-child(1)::after,
+                    &:nth-child(2)::after,
+                    &:nth-child(3)::after {
+                        right: -30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint (xsmall) {
+    .AboutUsFirst {
+        row-gap: 60px;
+        padding: 60px 0;
+
+        .onlineSchoolSection {
+            column-gap: 0px;
+            grid-template-columns: 1fr;
+
+            .textSide {
+                h2 {
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    font-size: 14px;
+                    padding: 10px 0 30px;
+                }
+
+                .Links {
+
+                    a {
+                        font-size: 10px;
+                        padding: 6px 18px;
+                    }
+                }
+            }
+
+            img {
+                display: none;
+            }
+        }
+
+        .VideoSection {
+            justify-content: space-between;
+            grid-template-columns: 0.6fr 0.4fr;
+
+            .description {
+                li {
+                    font-size: 8px;
+                    line-height: 30px;
+                    h2 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+        .coreValues {
+            &__Wrapper {
+                padding: 30px 0 0;
+                row-gap: 20px;
+                column-gap: 10px;
+                grid-template-columns: 1fr 1fr;
+
+                .value {
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    h3 {
+                        font-size: 10px;
+                        white-space: nowrap;
+                        padding: 13px 0 5px;
+                    }
+
+                    p {
+                        font-size: 8px;
+                    }
+
+                    &:nth-child(1)::after,
+                    &:nth-child(2)::after {
+                        top: 65%;
+                        right: 50%;
+                        rotate: 90deg;
+                        transform: translateX(-50%);
+                    }
+
+                    &:nth-child(2)::before {
+                        top: 50%;
+                        content: '';
+                        width: 0.1em;
+                        height: 100%;
+                        left: -1.3px;
+                        display: block;
+                        position: absolute;
+                        transform: translateY(-50%);
+                        background: linear-gradient(180deg, rgb(237, 241, 240), rgb(219, 219, 219) 50%, rgb(243, 243, 243));
+                    }
+
+                    &:nth-child(3)::after {
+                        right: -10px;
+                    }
+                }
+            }
+        }
+    }
+}

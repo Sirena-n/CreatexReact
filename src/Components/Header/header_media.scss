@@ -1,0 +1,221 @@
+@import '../../Styles/_Variables.scss';
+
+@include breakpoint(xlarge) {
+    header {
+        .headerWrapper {
+            .container {
+                .links {
+                    column-gap: 25px;
+                }
+
+                .actionPanel,
+                .profile {
+                    .getConsult {
+                        padding: 10px 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(large) {
+    header {
+        .headerWrapper {
+            .container {
+                .menuWrapper {
+                    
+                    nav {
+                        .links {
+                            column-gap: 20px;
+                        }
+                    }
+
+                    .actionPanel {
+                        .getConsult {
+                            font-size: 12px;
+                            padding: 8px 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(medium) {
+    header {
+        .headerWrapper {
+            .container {
+                .links {
+                    li a {
+                        font-size: 14px;
+                    }
+                }
+
+                .actionPanel,
+                .profile {
+                    .getConsult {
+                        font-size: 12px;
+                        padding: 6px 25px;
+                        white-space: nowrap;
+                    }
+                }
+
+                .actionPanel {
+                    column-gap: 5px;
+
+                    .profile {
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(small) {
+    header {
+        .headerWrapper {
+            .container {
+
+                .menuWrapper {
+                    .links {
+                        column-gap: 15px;
+
+                        li a {
+                            font-size: 13px;
+                        }
+                    }
+
+                    .actionPanel,
+                    .profile {
+                        .getConsult {
+                            font-size: 10px;
+                            padding: 6px 18px;
+                            white-space: nowrap;
+                        }
+                    }
+
+                    .actionPanel {
+                        column-gap: 3px;
+
+                        .profile {
+                            p {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@include breakpoint(xsmall) {
+    header {
+        .headerWrapper {
+            top: 5px;
+
+            .container {
+                .menuIcon {
+                    display: block;
+                    font-size: 18px;
+                    justify-self: flex-end;
+                }
+
+                .menuWrapper {
+                    display: none;
+                }
+
+                .menuWrapperActive {
+                    display: flex;
+                    grid-column: 2;
+                    text-align: right;
+                    justify-self: end;
+                    width: fit-content;
+                    padding: 10px 20px;
+                    border-radius: 2px;
+                    flex-direction: column;
+                    background-color: azure;
+
+
+                    nav {
+                        grid-column: 2;
+
+                        h3 {
+                            display: flex;
+                            font-size: 10px;
+                            align-items: center;
+                            letter-spacing: 1px;
+                            justify-content: end;
+
+                            svg {
+                                font-size: 12px;
+                            }
+
+                            &:hover {
+                                color: red;
+                            }
+                        }
+
+                        .links {
+                            display: none;
+                        }
+
+                        .linksActive {
+                            display: flex;
+                            align-items: end;
+                            flex-direction: column;
+
+                            li a {
+                                font-size: 8px;
+                            }
+                        }
+                    }
+
+                    .actionPanel {
+                        display: flex;
+                        grid-column: 2;
+                        align-items: end;
+                        flex-direction: column;
+                    }
+
+                    .actionPanel,
+                    .profile {
+                        .getConsult {
+                            font-size: 10px;
+                            padding: 5px 0;
+                            color: black;
+                            background-color: transparent;
+
+                            &:hover {
+                                color: red;
+                            }
+                        }
+                    }
+
+                    .profile {
+                        row-gap: 5px;
+                        flex-direction: column;
+                        align-items: flex-end;
+
+                        p {
+                            font-size: 10px;
+                        }
+
+                        svg,
+                        i {
+                            display: none;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}

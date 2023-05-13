@@ -1,0 +1,22 @@
+@import '../../../Styles/_Variables';
+
+@include breakpoint (medium) {
+    .OurTeamWrapper {
+        padding-top: 80px;
+    }
+}
+
+@include breakpoint (xsmall) {
+    .OurTeamWrapper {
+        padding-top: 20px;
+
+        .container {
+            .TeamWrapper {
+                &__TeamInner {
+                    padding: 20px 0 30px;
+                }
+            }
+
+        }
+    }
+}

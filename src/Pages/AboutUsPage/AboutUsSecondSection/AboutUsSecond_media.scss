@@ -1,0 +1,99 @@
+@import '../../../Styles/Variables';
+
+@include breakpoint (medium) {
+    .SecondSection {
+        .ProcessBlock {
+            column-gap: 150px;
+        }
+    }
+}
+
+@include breakpoint (small) {
+    .SecondSection {
+        row-gap: 100px;
+
+        .ProcessBlock {
+            column-gap: 100px;
+
+            .ProcessWrapper {
+                .title {
+                    padding-bottom: 25px;
+                }
+
+                .ProcessInner {
+                    .Process {
+                        .ProcessInfo {
+                            h4 {
+                                font-size: 14px;
+                            }
+
+                            p {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint (xsmall) {
+    .SecondSection {
+        row-gap: 60px;
+
+        .ProcessBlock {
+            column-gap: 100px;
+            grid-template-columns: 1fr;
+
+            .ProcessWrapper {
+                .title {
+                    padding-bottom: 25px;
+                }
+
+                .ProcessInner {
+                    grid-template-rows: 1fr 1fr;
+                    grid-template-columns: 1fr 1fr;
+
+                    .Process {
+                        hr {
+                            height: 80%;
+                            margin-left: 1.5px;
+                        }
+
+                        .step {
+                            font-size: 10px;
+                        }
+
+                        .circle {
+                            width: 5px;
+                            height: 5px;
+                        }
+
+                        .ProcessInfo {
+                            h4 {
+                                font-size: 14px;
+                                padding: 0 0 5px;
+                            }
+
+                            p {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+
+            img {
+                display: none;
+            }
+        }
+
+        .TeamBlock {
+            padding-bottom: 60px;
+        }
+
+    }
+}

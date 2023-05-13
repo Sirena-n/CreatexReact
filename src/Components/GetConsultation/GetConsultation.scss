@@ -1,0 +1,70 @@
+.consultWrapper {
+    z-index: 20;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+
+    .btnConsult {
+        border: none;
+        display: flex;
+        color: white;
+        column-gap: 10px;
+        padding: 5px 8px;
+        width: fit-content;
+        border-radius: 5px;
+        align-items: center;
+        background-color: rgb(255, 55, 0);
+    }
+
+    .consult {
+        width: 0;
+        height: 0;
+        opacity: 0;
+        z-index: 200;
+        border-radius: 4px;
+        transition: all 0.2s ease-out;
+    }
+
+    .consult.Open {
+        opacity: 1;
+        right: 10px;
+        width: 300px;
+        bottom: 10px;
+        height: 400px;
+        color: black;
+        background-color: aqua;
+
+        .consultTitle {
+            padding: 5px;
+            display: flex;
+            color: white;
+            border-radius: 4px;
+            align-items: center;
+            background-color: aquamarine;
+
+            &__closeBtn {
+                cursor: pointer;
+                padding: 4px 5px 2px;
+
+                &:hover {
+                    border-radius: 50%;
+                    background-color: #ffffff50;
+                }
+            }
+
+            article {
+                margin-left: 59px;
+                text-align: center;
+
+                h3 {
+                    font-size: 14px;
+                }
+
+                h2 {
+                    font-size: 16px;
+                }
+            }
+
+        }
+    }
+}

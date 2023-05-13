@@ -1,0 +1,400 @@
+{
+  "blogItems": [
+    {
+      "id": 1,
+      "type": "Article",
+      "tags": [
+        "#learning",
+        "#HR",
+        "#self-developm"
+      ],
+      "image": "/images/item.png",
+      "title": "HR statistics: job search,  interviews, hiring and recruiting",
+      "sphere": "HR & Recruting",
+      "description": "Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...",
+      "date": {
+        "time": "4 min read",
+        "DayAndMonth": "August 3, 2020"
+      },
+      "author": {
+        "name": "Kristin Watson",
+        "image": "",
+        "sphere": "Curator of Marketing Course"
+      }
+    },
+    {
+      "id": 2,
+      "type": "Article",
+      "tags": [
+        "#learning",
+        "#HR",
+        "#self-development"
+      ],
+      "image": "/images/item.png",
+      "title": "HR statistics: job search,  interviews, hiring and recruiting",
+      "sphere": "HR & Recruting",
+      "description": "Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...",
+      "date": {
+        "time": "4 min read",
+        "DayAndMonth": "August 3, 2020"
+      },
+      "author": {
+        "name": "Kristin Watson",
+        "image": "",
+        "sphere": "Curator of Marketing Course"
+      }
+    },
+    {
+      "id": 3,
+      "type": "Article",
+      "tags": [
+        "#learning",
+        "#HR",
+        "#self-development"
+      ],
+      "image": "/images/item.png",
+      "title": "HR statistics: job search,  interviews, hiring and recruiting",
+      "sphere": "HR & Recruting",
+      "description": "Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...",
+      "date": {
+        "time": "4 min read",
+        "DayAndMonth": "August 3, 2020"
+      },
+      "author": {
+        "name": "Kristin Watson",
+        "image": "",
+        "sphere": "Curator of Marketing Course"
+      }
+    },
+    {
+      "id": 4,
+      "type": "Article",
+      "tags": [
+        "#learning",
+        "#HR",
+        "#self-development"
+      ],
+      "image": "/images/item.png",
+      "title": "HR statistics: job search,  interviews, hiring and recruiting",
+      "sphere": "HR & Recruting",
+      "description": "Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...",
+      "date": {
+        "time": "4 min read",
+        "DayAndMonth": "August 3, 2020"
+      },
+      "author": {
+        "name": "Kristin Watson",
+        "image": "",
+        "sphere": "Curator of Marketing Course"
+      }
+    },
+    {
+      "id": 5,
+      "type": "Article",
+      "tags": [
+        "#learning",
+        "#HR",
+        "#self-development"
+      ],
+      "image": "/images/item.png",
+      "title": "HR statistics: job search,  interviews, hiring and recruiting",
+      "sphere": "HR & Recruting",
+      "description": "Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...",
+      "date": {
+        "time": "4 min read",
+        "DayAndMonth": "August 3, 2020"
+      },
+      "author": {
+        "name": "Kristin Watson",
+        "image": "",
+        "sphere": "Curator of Marketing Course"
+      }
+    },
+    {
+      "id": 6,
+      "type": "Article",
+      "tags": [
+        "#learning",
+        "#HR",
+        "#self-development"
+      ],
+      "image": "/images/item.png",
+      "title": "HR statistics: job search,  interviews, hiring and recruiting",
+      "sphere": "HR & Recruting",
+      "description": "Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...",
+      "date": {
+        "time": "4 min read",
+        "DayAndMonth": "August 3, 2020"
+      },
+      "author": {
+        "name": "Kristin Watson",
+        "image": "",
+        "sphere": "Curator of Marketing Course"
+      }
+    },
+    {
+      "id": 7,
+      "type": "Article",
+      "tags": [
+        "#learning",
+        "#HR",
+        "#self-development"
+      ],
+      "image": "/images/item.png",
+      "title": "HR statistics: job search,  interviews, hiring and recruiting",
+      "sphere": "HR & Recruting",
+      "description": "Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...",
+      "date": {
+        "time": "4 min read",
+        "DayAndMonth": "August 3, 2020"
+      },
+      "author": {
+        "name": "Kristin Watson",
+        "image": "",
+        "sphere": "Curator of Marketing Course"
+      }
+    },
+    {
+      "id": 8,
+      "type": "Article",
+      "tags": [
+        "#learning",
+        "#HR",
+        "#self-development"
+      ],
+      "image": "/images/item.png",
+      "title": "HR statistics: job search,  interviews, hiring and recruiting",
+      "sphere": "HR & Recruting",
+      "description": "Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...",
+      "date": {
+        "time": "4 min read",
+        "DayAndMonth": "August 3, 2020"
+      },
+      "author": {
+        "name": "Kristin Watson",
+        "image": "",
+        "sphere": "Curator of Marketing Course"
+      }
+    },
+    {
+      "id": 9,
+      "type": "Article",
+      "tags": [
+        "#learning",
+        "#HR",
+        "#self-development"
+      ],
+      "image": "/images/item.png",
+      "title": "HR statistics: job search,  interviews, hiring and recruiting",
+      "sphere": "HR & Recruting",
+      "description": "Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...",
+      "date": {
+        "time": "4 min read",
+        "DayAndMonth": "August 3, 2020"
+      },
+      "author": {
+        "name": "Kristin Watson",
+        "image": "",
+        "sphere": "Curator of Marketing Course"
+      }
+    },
+    {
+      "id": 10,
+      "type": "Article",
+      "tags": [
+        "#learning",
+        "#HR",
+        "#self-development"
+      ],
+      "image": "/images/item.png",
+      "title": "HR statistics: job search,  interviews, hiring and recruiting",
+      "sphere": "HR & Recruting",
+      "description": "Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...",
+      "date": {
+        "time": "4 min read",
+        "DayAndMonth": "August 3, 2020"
+      },
+      "author": {
+        "name": "Kristin Watson",
+        "image": "",
+        "sphere": "Curator of Marketing Course"
+      }
+    }
+  ],
+  "eventItems": [
+    {
+      "id": 1,
+      "title": "Formation of the organizational structure of the company in the face of uncertainty.",
+      "price": "Free",
+      "theme": "master-class",
+      "online": true,
+      "date": [
+        {
+          "time": "11:00 – 14:00",
+          "day": "05",
+          "month": "August "
+        }
+      ],
+      "speaker": {
+        "name": "",
+        "image": "",
+        "sphere": "",
+        "description": ""
+      },
+      "subthemes": [
+        {
+          "id": 1,
+          "subtheme": "Aliquet lectus urna viverra in odio.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        },
+        {
+          "id": 2,
+          "subtheme": "Orci commodo, viverra orci mollis ut euismod.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        },
+        {
+          "id": 3,
+          "subtheme": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Formation of the organizational structure of the company in the face of uncertainty.",
+      "price": "Free",
+      "theme": "master-class",
+      "online": true,
+      "date": [
+        {
+          "time": "11:00 – 14:00",
+          "day": "05",
+          "month": "August "
+        }
+      ],
+      "speaker": {
+        "name": "",
+        "image": "",
+        "sphere": "",
+        "description": ""
+      },
+      "subthemes": [
+        {
+          "id": 1,
+          "subtheme": "Aliquet lectus urna viverra in odio.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        },
+        {
+          "id": 2,
+          "subtheme": "Orci commodo, viverra orci mollis ut euismod.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        },
+        {
+          "id": 3,
+          "subtheme": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Formation of the organizational structure of the company in the face of uncertainty.",
+      "price": "Free",
+      "theme": "master-class",
+      "online": true,
+      "date": [
+        {
+          "time": "11:00 – 14:00",
+          "day": "05",
+          "month": "August "
+        }
+      ],
+      "speaker": {
+        "name": "",
+        "image": "",
+        "sphere": "",
+        "description": ""
+      },
+      "subthemes": [
+        {
+          "id": 1,
+          "subtheme": "Aliquet lectus urna viverra in odio.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        },
+        {
+          "id": 2,
+          "subtheme": "Orci commodo, viverra orci mollis ut euismod.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        },
+        {
+          "id": 3,
+          "subtheme": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Formation of the organizational structure of the company in the face of uncertainty.",
+      "price": "Free",
+      "theme": "master-class",
+      "online": true,
+      "date": [
+        {
+          "time": "11:00 – 14:00",
+          "day": "05",
+          "month": "August "
+        }
+      ],
+      "speaker": {
+        "name": "",
+        "image": "",
+        "sphere": "",
+        "description": ""
+      },
+      "subthemes": [
+        {
+          "id": 1,
+          "subtheme": "Aliquet lectus urna viverra in odio.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        },
+        {
+          "id": 2,
+          "subtheme": "Orci commodo, viverra orci mollis ut euismod.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        },
+        {
+          "id": 3,
+          "subtheme": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        }
+      ]
+    }
+  ],
+  "courseItems": [
+    {
+      "id": 1,
+      "title": "The Ultimate Google Ads Training Course",
+      "sphere": "Marketing",
+      "image": "/images/image (4).png",
+      "price": 103,
+      "lessons": 8,
+      "duration": "",
+      "author": "Jerome Bell",
+      "description": "Bibendum vulputate adipiscing venenatis at est, a eu tincidunt. Leo aenean congue in sagittis, felis maecenas amet varius at. Pellentesque euismod in faucibus at elementum. Tellus maecenas libero est tempus sit cras at malesuada diam. Consequat senectus dictumst non hac dignissim montes, pretium, egestas molestie. Sed magna aliquet ornare nibh vel lectus diam eget pretium. Lorem risus nunc tincidunt tortor, mi nulla pellentesque",
+      "willLearn": [
+        {
+          "id": 1,
+          "description": "A fermentum in morbi pretium aliquam adipiscing donec tempus."
+        }
+      ],
+      "courseprogram": [
+        {
+          "id": 1,
+          "theme": "Aliquet lectus urna viverra in odio.",
+          "description": "Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id."
+        }
+      ]
+    }
+  ]
+}

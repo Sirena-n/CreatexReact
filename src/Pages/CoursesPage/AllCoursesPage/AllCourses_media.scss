@@ -1,0 +1,146 @@
+@import '../../../Styles/Variables';
+
+@include breakpoint (xlarge) {
+    .AllCoursesWrapper {
+        padding: 120px 0;
+
+        .title {
+            padding-bottom: 40px;
+        }
+
+        .filterNav {
+            ul {
+                li {
+                    padding: 8px 20px;
+
+                    span {
+                        right: 10px;
+                    }
+                }
+            }
+
+            .CourseSearch {
+                padding: 8px;
+            }
+        }
+    }
+}
+
+@include breakpoint (large) {
+    .AllCoursesWrapper {
+        padding: 100px 0;
+
+        .title {
+            padding-bottom: 30px;
+        }
+
+        .filterNav {
+            ul {
+                li {
+                    padding: 8px 15px;
+
+                    span {
+                        right: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint (medium) {
+    .AllCoursesWrapper {
+        padding: 80px 0;
+
+        .title {
+            padding-bottom: 25px;
+        }
+
+        .filterNav {
+            ul {
+                li {
+                    font-size: 14px;
+                    padding: 8px 15px;
+
+                    span {
+                        right: 4px;
+                    }
+                }
+            }
+
+            .CourseSearch {
+                font-size: 14px;
+
+                svg {
+                    bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint (small) {
+    .AllCoursesWrapper {
+        .filterNav {
+            ul {
+                li {
+                    font-size: 12px;
+                    padding: 6px 12px;
+
+                    span {
+                        top: 2px;
+                        right: 4px;
+                    }
+                }
+            }
+
+            .CourseSearch {
+                font-size: 12px;
+                padding: 6px 10px;
+
+                svg {
+                    bottom: 3px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint (xsmall) {
+    .AllCoursesWrapper {
+        padding: 60px 0;
+
+        .title {
+            padding-bottom: 0;
+        }
+
+        .filterNav {
+            display: grid;
+            align-items: center;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr;
+
+            ul {
+                display: none;
+            }
+
+            .selectForm {
+                width: 70%;
+                margin-bottom: 29px;
+                display: inline-flex;
+            }
+
+            .CourseSearch {
+                width: 100%;
+                font-size: 12px;
+                padding: 6px 10px;
+
+                svg {
+                    bottom: 3px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

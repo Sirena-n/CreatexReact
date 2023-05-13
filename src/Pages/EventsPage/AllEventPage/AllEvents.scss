@@ -1,0 +1,105 @@
+.Events {
+    text-align: center;
+    padding: 140px 0 160px;
+
+    .Filter {
+        display: grid;
+        margin: 50px 0;
+        column-gap: 10px;
+        align-items: center;
+        grid-template-columns: 0.6fr 0.5fr 1fr 1fr ;
+
+        label,
+        .grids {
+            height: 40px;
+            display: flex;
+            font-size: 14px;
+            column-gap: 12px;
+            font-weight: 700;
+            align-items: center;
+            white-space: nowrap;
+
+            select {
+                width: 150px;
+                height: 100%;
+                padding: 0 16px;
+                appearance: none;
+                border-radius: 4px;
+                background-size: 24px;
+                -webkit-appearance: none;
+                border: 1px solid #D7DADD;
+                background-repeat: no-repeat;
+                background-position: calc(100% - 3px) center;
+                background-image: url("../../../../public/images/expand.png");
+            }
+
+            input {
+                border: none;
+                height: 100%;
+                outline: none;
+                border-radius: 4px;
+                background-color: transparent;
+            }
+        }
+
+        .pages {
+
+            input {
+                width: 30%;
+                padding: 0 12px;
+                border: 1px solid #D7DADD;
+            }
+
+            .perPage {
+                font-size: 12px;
+                color: #787A80;
+                font-weight: 400;
+                width: fit-content;
+            }
+        }
+
+        .Search {
+            height: 100%;
+            width: 260px;
+            padding: 0 16px;
+            position: relative;
+            border-radius: 4px;
+            justify-self: flex-end;
+            border: 1px solid #D7DADD;
+
+            svg {
+                top: 50%;
+                right: 16px;
+                color: #9A9CA5;
+                width: fit-content;
+                position: absolute;
+                transform: translateY(-50%);
+            }
+
+            input::placeholder {
+                font-size: 12px;
+                color: #787A80;
+                width: 100%;
+            }
+
+        }
+
+        .grids {
+            .grid {
+                font-size: 27px;
+            }
+
+            .active {
+                color: red;
+            }
+        }
+    }
+
+    .EventsWrapper {
+        gap: 20px;
+        display: grid;
+
+    }
+}
+
+@import './AllEvents_media.scss';

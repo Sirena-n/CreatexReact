@@ -1,0 +1,61 @@
+.TeamItem {
+    width: 220px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__images {
+        width: 220px;
+        height: 270px;
+        position: relative;
+        border-radius: 4px;
+        background-color: #FFCF2D;
+
+        .relative {
+            width: 100%;
+            z-index: 20;
+            height: 100%;
+            position: absolute;
+
+            &:hover {
+                box-shadow: 1px -90px 60px -9px rgba(0, 0, 0, 0.9) inset;
+            }
+        }
+
+        .relative:hover+.socialmedia {
+            display: block;
+        }
+
+        .socialmedia {
+            right: 20px;
+            z-index: 21;
+            bottom: 20px;
+            display: none;
+            position: absolute;
+        }
+
+        .avatar {
+            left: 50%;
+            bottom: 0;
+            width: 90%;
+            height: 93%;
+            z-index: 10;
+            position: absolute;
+            transform: translateX(-50%);
+
+        }
+
+
+    }
+
+    h4 {
+        font-size: 20px;
+        padding: 12px 0 4px;
+    }
+
+    p {
+        font-size: 16px;
+        color: #787A8070;
+    }
+}

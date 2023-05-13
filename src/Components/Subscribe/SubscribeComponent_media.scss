@@ -1,0 +1,106 @@
+@import '../../Styles/_Variables';
+
+@include breakpoint (xlarge) {
+    .Subscribe {
+        padding: 60px 0 80px;
+
+        .title {
+            padding-bottom: 40px;
+        }
+
+        form {
+            width: 40%;
+
+            input {
+                padding: 12px;
+            }
+        }
+
+        img {
+            width: 260px;
+            height: 200px;
+        }
+    }
+}
+
+@include breakpoint (medium) {
+    .Subscribe {
+        padding: 40px 0 60px;
+
+        .title {
+            padding-bottom: 30px;
+        }
+
+        form {
+            width: 50%;
+
+            input {
+                padding: 8px;
+            }
+        }
+
+        img {
+            width: 200px;
+            height: 160px;
+        }
+    }
+}
+
+@include breakpoint (small) {
+    .Subscribe {
+        padding: 30px 0 50px;
+
+        .title {
+            padding-bottom: 20px;
+        }
+
+        form {
+            width: 50%;
+
+            input {
+                padding: 6px;
+                font-size: 12px;
+            }
+
+            button {
+                font-size: 12px;
+            }
+        }
+
+        img {
+            width: 160px;
+            height: 120px;
+        }
+    }
+}
+
+@include breakpoint (xsmall) {
+    .Subscribe {
+        padding: 10px 0 20px;
+
+        .title {
+            padding-bottom: 10px;
+        }
+
+        form {
+            width: 70%;
+            z-index: 10;
+            position: static;
+
+            input {
+                padding: 4px;
+                font-size: 8px;
+            }
+
+            button {
+                font-size: 8px;
+                border-radius: 1px;
+            }
+        }
+
+        img {
+            width: 80px;
+            height: 60px;
+        }
+    }
+}

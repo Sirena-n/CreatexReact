@@ -1,0 +1,231 @@
+.LearningProcess {
+    padding: 140px 0 160px;
+    display: flex;
+    row-gap: 160px;
+    flex-direction: column;
+
+    .Process {
+        text-align: center;
+
+        .itemWrapper {
+            display: grid;
+            text-align: left;
+            column-gap: 30px;
+            padding-top: 50px;
+            grid-template-columns: repeat(4, 1fr);
+
+            h2 {
+                width: 100%;
+                display: flex;
+                color: #D7DADD;
+                column-gap: 20px;
+                align-items: center;
+
+                hr {
+                    width: 100%;
+                    border: 1px dashed #D7DADD;
+                }
+            }
+
+            .fourth {
+                color: #FF3F3A;
+                width: fit-content;
+                position: relative;
+
+
+                &::after {
+                    top: 50%;
+                    left: 50%;
+                    content: '';
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    position: absolute;
+                    background-color: #FF3F3A30;
+                    transform: translate(-50%, -50%);
+                }
+
+                &::before {
+                    content: '';
+                    top: 50%;
+                    left: 50%;
+                    width: 95px;
+                    height: 95px;
+                    border-radius: 50%;
+                    position: absolute;
+                    background-color: #FF3F3A10;
+                    transform: translate(-50%, -50%);
+                }
+
+            }
+
+            h5 {
+                font-size: 18px;
+                margin: 20px 0 16px;
+            }
+
+            p {
+                font-size: 14px;
+                color: #787A80;
+            }
+        }
+    }
+
+    .Discount {
+        display: grid;
+        column-gap: 30px;
+        border-radius: 4px;
+        position: relative;
+        padding: 40px 60px;
+        flex-direction: column;
+        background: linear-gradient(55.95deg, #FF3F3A30 0%, #F75E0530 100%);
+
+        img {
+            top: 0;
+            right: 30%;
+            width: 225px;
+            height: 62px;
+            position: absolute;
+        }
+
+        &__top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h2 {
+                font-size: 28px;
+                font-weight: 900;
+            }
+
+            .date {
+                display: flex;
+                column-gap: 20px;
+                text-align: center;
+
+                h4 {
+
+                    font-size: 300;
+                    font-size: 12px;
+
+                    span {
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+
+        form {
+            display: flex;
+            column-gap: 22px;
+            padding-top: 25px;
+            align-items: flex-end;
+            justify-content: space-between;
+
+            label {
+                width: 100%;
+                row-gap: 8px;
+                display: flex;
+                font-size: 14px;
+                flex-direction: column;
+
+                input {
+                    padding: 10px;
+                    outline: none;
+                    border-radius: 3px;
+                    border: 1px solid #D7DADD;
+
+                    &::placeholder {
+                        color: #D7DADD;
+                    }
+                }
+            }
+
+            button {
+                width: 40%;
+                height: 60%;
+                border: none;
+                color: white;
+                padding: 0 32px;
+                border-radius: 4px;
+                background-color: #FF3F3A;
+            }
+        }
+    }
+
+    .ForWhom {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 35% 48%;
+
+        h3 {
+            padding-bottom: 13px;
+        }
+
+        h2 {
+            grid-column-start: 1;
+        }
+
+        ul {
+
+            li {
+                display: flex;
+                font-size: 18px;
+                column-gap: 15px;
+                margin-bottom: 15px;
+
+                img {
+                    width: 15px;
+                    height: 15px;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+
+    .WhatWillLearn {
+        .Learn {
+            display: grid;
+            justify-content: space-between; 
+            grid-template-columns: 48% 35%;
+
+            ul {
+                padding-top: 50px;
+
+                li {
+                    .less {
+                        display: flex;
+                        column-gap: 8px;
+                        margin-bottom: 8px;
+                        align-items: center;
+
+                        .lesson {
+                            display: flex;
+                            font-size: 18px;
+                            column-gap: 15px;
+                            font-weight: 400;
+                            color: #FF3F3A;
+                            align-items: center;
+                        }
+
+                        .learnTitle {
+                            font-weight: 700;
+                            justify-self: start;
+                            grid-column-start: 2;
+                        }
+                    }
+
+                    .text {
+                        padding-left: 40px;
+                    }
+                }
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

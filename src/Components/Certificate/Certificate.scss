@@ -1,0 +1,35 @@
+.certificateWrapper {
+    display: grid;
+    column-gap: 100px;
+    padding: 100px 0 80px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+
+    .certificateDiscription {
+
+        .title {
+            padding-bottom:45px;
+        }
+
+        .organisations {
+            display: flex;
+            column-gap: 40px;
+            padding-top: 40px;
+
+            img {
+                height: 45px;
+            }
+        }
+    }
+
+    .certificateIMGWrapper {
+        width: 100%;
+
+        img {
+            width: 100%;
+            border-radius: 4px;
+        }
+    }
+}
+
+@import './Certificate_media.scss';

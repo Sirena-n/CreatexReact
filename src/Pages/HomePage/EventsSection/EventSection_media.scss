@@ -1,0 +1,81 @@
+@import '../../../Styles/_Variables';
+
+@include breakpoint (xlarge) {
+    .EventsSection {
+        .container {
+            .moreEvents {
+                h3 {
+                    font-size: 22px
+                }
+
+                a {
+                    padding: 10px 30px;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint (large) {
+    .EventsSection {
+        .container {
+            .moreEvents {
+                h3{
+                    font-size: 20px;
+                }
+                a{
+                    padding: 8px 25px;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint (medium) {
+    .EventsSection {
+        .container {
+            .moreEvents {
+                h3{
+                    font-size: 18px;
+                }
+                a{
+                    padding: 6px 20px;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint (small) {
+    .EventsSection {
+        .container {
+            .moreEvents {
+                h3{
+                    font-size: 14px;
+                }
+                a{
+                    font-size: 14px;
+                    padding: 4px 20px;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint (xsmall) {
+    .EventsSection {
+        padding: 20px 0;
+        .container {
+            .moreEvents {
+                h3{
+                    font-size: 10px;
+                }
+                a{
+                    font-size: 10px;
+                    padding: 3px 15px;
+                    border-radius: 1px;
+                }
+            }
+        }
+    }
+}

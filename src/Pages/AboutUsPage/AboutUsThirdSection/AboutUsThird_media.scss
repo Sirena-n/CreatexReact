@@ -1,0 +1,9 @@
+@import '../../../Styles/Variables';
+
+@include breakpoint (small) {
+    .AboutUsThird{
+        .JobWrapper{
+            padding: 40px 0;
+        }
+    }
+}

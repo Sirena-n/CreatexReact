@@ -1,0 +1,37 @@
+.BlogSection {
+    padding: 100px 0 160px;
+
+    .sectionTitle {
+        display: grid;
+        padding-bottom: 50px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+
+        .subtitle {
+            align-self: center; 
+        }
+
+        .title {
+            grid-column-start: 1;
+        }
+
+        a {
+            color: white;
+            align-self: end;
+            justify-self: end;
+            grid-row-start: 2;
+            padding: 11px 40px;
+            border-radius: 4px;
+            grid-column-start: 2;
+            background-color: #FF3F3A;
+        }
+    }
+
+    .blogWrapper {
+        display: grid;
+        column-gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@import './BlogComponent_media.scss';

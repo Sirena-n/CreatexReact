@@ -1,0 +1,13 @@
+.AboutUsThird{
+    .JobWrapper{
+        padding: 80px 0;
+        text-align: center;
+        background-color: #B3B7BC40;
+        .JobInner{
+            display: grid;
+            grid-template-columns: repeat(6 , 1fr);
+        }
+    }
+}
+
+@import './AboutUsThird_media.scss'

@@ -1,0 +1,102 @@
+.RegisterWrapper {
+    background-color: #B3B7BC40;
+    padding: 160px 0 80px;
+
+    .container {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 43% 45%;
+
+        img {
+            width: 100%;
+        }
+
+        .RegisterInner {
+            h3 {
+                letter-spacing: 0;
+            }
+
+            form,
+            form label {
+                display: flex;
+                flex-direction: column;
+            }
+
+            form {
+                row-gap: 20px;
+                padding-top: 40px;
+
+                label {
+                    row-gap: 8px;
+
+                    input {
+                        outline: none;
+                        padding: 14px;
+                        border-radius: 4px;
+                        border: 1px solid #D7DADD;
+
+                        &::placeholder {
+                            color: #9A9CA5;
+                        }
+                    }
+                }
+
+                .join {
+                    border: none;
+                    outline: none;
+                    color: white;
+                    padding: 14px 0;
+                    margin-top: 20px;
+                    border-radius: 4px;
+                    background-color: #FF3F3A;
+                }
+            }
+        }
+
+    }
+}
+
+.AlsoLikeWrapper {
+    display: grid;
+    flex-direction: column;
+    padding: 100px 0 160px;
+
+    .AlsoLikeTop {
+        display: grid;
+        grid-template-rows: 0.5fr 1fr;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;
+
+        h2 {
+            grid-column-start: 1;
+        }
+
+        .itemPaginations {
+            display: flex;
+            grid-row: 2 /2;
+            column-gap: 30px;
+            grid-column: 2 / 2;
+            align-items: center;
+            justify-self: flex-end;
+        }
+    }
+
+    .AlsoLikeBtm {
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+        justify-self: center;
+
+        h3 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        a {
+            color: white;
+            border-radius: 4px;
+            padding: 14px 40px;
+            background-color: #FF3F3A;
+        }
+    }
+}

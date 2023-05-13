@@ -1,0 +1,115 @@
+.JoinEvent {
+    display: grid;
+    padding: 100px 0;
+    column-gap: 140px;
+    align-items: center;
+    grid-template-columns: 0.8fr 1fr;
+
+    form,
+    form label {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        h2 {
+            margin-bottom: 40px;
+        }
+
+        label {
+            row-gap: 8px;
+            margin-bottom: 25px;
+
+            input {
+                height: 40px;
+                padding: 0 10px;
+
+            }
+        }
+
+        button {
+            height: 40px;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            margin: 15px 0 20px;
+            background-color: #F75E05;
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+
+    img {
+        height: 80%;
+        justify-self: end;
+    }
+}
+
+.OtherEvents {
+    padding: 80px 0 140px;
+    background-color: #B3B7BC40;
+
+    .ItemWrapper {
+        padding-top: 140px;
+
+        .title {
+            left: 0;
+            top: 30px;
+            position: absolute;
+        }
+
+        .subtitle {
+            top: 0;
+            position: absolute;
+        }
+
+        .swiper-button-prev {
+            left: 93%;
+
+            &:after {
+                position: absolute;
+                content: url('../../../../../public/images/Line\ \(Stroke\)\.png') !important;
+
+            }
+        }
+
+        .swiper-button-next {
+            right: -8px;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            top: 16%;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            padding-bottom: 19px;
+
+            &:after {
+                content: url('../../../../../public/images/Line\ \(Stroke\)\ \(1\).png');
+
+            }
+        }
+    }
+
+    .more {
+        display: flex;
+        column-gap: 30px;
+        padding-top: 60px;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        a {
+            color: white;
+            padding: 10px 40px;
+            border-radius: 4px;
+            background-color: #F75E05;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+$breakpoint-xsmall: 350px;
+$breakpoint-small: 825px;
+$breakpoint-medium: 926px;
+$breakpoint-large: 1050px;
+$breakpoint-xlarge: 1200px;
+
+@mixin breakpoint($point) {
+  @if $point == xsmall {
+    @media only screen and (max-width: $breakpoint-xsmall) { @content; }
+  }
+  @else if $point == small {
+    @media only screen and (max-width: $breakpoint-small) { @content; }
+  }
+  @else if $point == medium {
+    @media only screen and (max-width: $breakpoint-medium) { @content; }
+  }
+  @else if $point == large {
+    @media only screen and (max-width: $breakpoint-large) { @content; }
+  }
+  @else if $point == xlarge {
+    @media screen and (max-width: $breakpoint-xlarge) { @content; }
+  }
+}

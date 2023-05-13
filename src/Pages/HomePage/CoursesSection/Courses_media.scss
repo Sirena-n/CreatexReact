@@ -1,0 +1,48 @@
+@import '../../../styles/_Variables';
+
+@include breakpoint (xlarge) {
+    .CoursesWrapper {
+        .sectionTop {
+            a {
+                padding: 8px 25px;
+            }
+        }
+    }
+}
+
+@include breakpoint (medium) {
+    .CoursesWrapper {
+        .sectionTop {
+            a {
+                padding: 6px 20px;
+            }
+        }
+    }
+}
+
+@include breakpoint (small) {
+    .CoursesWrapper {
+        .sectionTop {
+            a {
+                font-size: 12px;
+                padding: 4px 20px;
+            }
+        }
+    }
+}
+
+@include breakpoint (xsmall) {
+    .CoursesWrapper {
+        .sectionTop {
+            a {
+                font-size: 8px;
+                padding: 4px 20px;
+                border-radius: 1px;
+            }
+        }
+
+        .itemsWrapper {
+            padding-top: 20px;
+        }
+    }
+}

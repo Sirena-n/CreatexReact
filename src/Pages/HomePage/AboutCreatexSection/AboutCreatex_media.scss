@@ -1,0 +1,143 @@
+@import '../../../Styles/_Variables';
+
+@include breakpoint(xlarge) {
+    .aboutUs {
+        padding: 140px 0;
+
+        .imageSide {
+            img {
+                height: 400px;
+            }
+        }
+
+        .textSide {
+            ul {
+                row-gap: 7px;
+
+                li {
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+            }
+
+            .moreAboutUs {
+                padding: 9px 25px;
+            }
+        }
+    }
+}
+
+@include breakpoint(large) {
+    .aboutUs {
+        padding: 120px 0;
+
+        .imageSide {
+            img {
+                width: 90%;
+                height: 360px;
+            }
+        }
+
+        .textSide {
+            ul {
+                padding-bottom: 30px;
+
+                li {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+
+            .moreAboutUs {
+                padding: 7px 25px;
+            }
+        }
+    }
+}
+
+@include breakpoint(medium) {
+    .aboutUs {
+        padding: 100px 0;
+        grid-template-columns: 56% 43%;
+
+        .imageSide {
+            img {
+                width: 85%;
+                height: 280px;
+            }
+        }
+    }
+}
+
+@include breakpoint(small) {
+    .aboutUs {
+        padding: 60px 0;
+        grid-template-columns: 50% 48%;
+
+        .imageSide {
+            img {
+                width: 85%;
+                height: 250px;
+            }
+        }
+
+        .textSide {
+            .title {
+                padding: 0 0 20px;
+            }
+
+            ul {
+                li {
+                    font-size: 12px;
+                    line-height: 16px;
+                }
+            }
+
+            .moreAboutUs {
+                font-size: 12px;
+                padding: 6px 20px;
+            }
+        }
+    }
+}
+
+@include breakpoint(xsmall) {
+    .aboutUs {
+        padding: 20px 0;
+        grid-template-columns: none;
+
+        .imageSide {
+            img {
+                display: none;
+            }
+        }
+
+        .textSide {
+            
+            .title {
+                padding: 0 0 10px;
+            }
+
+            ul {
+                row-gap: 4px;
+                padding-bottom: 10px;
+
+                li {
+                    font-size: 8px;
+                    column-gap: 10px;
+                    line-height: 12px;
+
+                    span img {
+                        width: 10px;
+                    }
+                }
+            }
+
+            .moreAboutUs {
+                font-size: 8px;
+                padding: 4px 20px;
+                border-radius: 1px;
+            }
+        }
+    }
+}

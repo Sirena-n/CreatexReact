@@ -1,0 +1,161 @@
+.AboutUsFirst {
+    display: flex;
+    row-gap: 160px;
+    flex-direction: column;
+    padding: 130px 0 160px;
+
+    .onlineSchoolSection {
+        display: grid;
+        column-gap: 150px;
+        align-items: flex-end;
+        grid-template-columns: 1fr 0.7fr;
+
+        .textSide {
+            h2 {
+                margin-bottom: 30px;
+            }
+
+            h5 {
+                font-size: 18px;
+            }
+
+            p {
+                padding: 25px 0 60px;
+            }
+
+            .Links {
+                a {
+                    height: 100%;
+                    padding: 9px 40px;
+                    border-radius: 3px;
+                    margin-right: 20px;
+                    display: inline-block;
+                    border: 1px solid #FF3F3A;
+
+                    &:first-child {
+                        color: #FF3F3A;
+                    }
+
+                    &:last-child {
+                        color: white;
+                        background-color: #FF3F3A;
+                    }
+                }
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 90%;
+        }
+    }
+ 
+    .VideoSection {
+        display: grid;
+        grid-template-columns: 1fr 33%;
+
+        .watchBtn {
+            grid-row: 1;
+            border: none;
+            display: flex;
+            grid-column: 1;
+            column-gap: 15px;
+            font-weight: 700;
+            justify-self: start;
+            align-items: center;
+            padding-bottom: 30px;
+            background-color: transparent;
+
+            .circle {
+                width: 40px;
+                height: 40px;
+                display: block;
+                border-radius: 50%;
+                position: relative;
+                background-color: #FF3F3A;
+
+                &::after {
+                    top: 50%;
+                    left: 50%;
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    border: 7px solid transparent;
+                    border-left: 10px solid white;
+                    transform: translate(-23%, -50%);
+                }
+            }
+
+
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            grid-column: 1;
+        }
+
+        .description {
+            justify-self: end;
+            align-self: center;
+
+            li {
+                display: flex;
+                column-gap: 12px;
+                font-weight: 700;
+                line-height: 65px;
+                align-items: center;
+
+                h2 {
+                    font-size: 38px;
+                    font-weight: 900;
+                    color: #FF3F3A;
+                }
+            }
+        }
+    }
+
+    .coreValues {
+        text-align: center;
+
+        &__Wrapper {
+            display: grid;
+            column-gap: 70px;
+            padding-top: 50px;
+            grid-template-columns: repeat(4, 1fr);
+
+            .value {
+                position: relative;
+
+                img {
+                    width: 38px;
+                    height: 38px;
+                }
+
+                h3 {
+                    padding: 18px 0 8px;
+                }
+
+                p {
+                    color: #787A8099;
+                }
+
+                &:nth-child(1)::after,
+                &:nth-child(2)::after,
+                &:nth-child(3)::after {
+                    top: 50%;
+                    content: '';
+                    width: 0.1em;
+                    height: 100%;
+                    right: -38px;
+                    display: block;
+                    position: absolute;
+                    transform: translateY(-50%);
+                    background: linear-gradient(180deg, rgb(237, 241, 240), rgb(219, 219, 219) 50%, rgb(243, 243, 243));
+                }
+            }
+        }
+    }
+}
+
+@import './AboutUsFirst_media.scss'

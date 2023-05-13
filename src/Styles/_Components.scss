@@ -1,0 +1,159 @@
+@import './_Variables';
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+
+
+    @media screen and (max-width: 1300px) {
+        width: 1050px;
+    }
+
+    @include breakpoint(xlarge) {
+        width: 990px;
+    }
+
+    @include breakpoint(large) {
+        width: 900px;
+    }
+
+    @include breakpoint(medium) {
+        width: 800px;
+    }
+
+    @include breakpoint(small) {
+        width: 700px;
+    }
+
+    @include breakpoint(xsmall) {
+        width: 320px;
+    }
+}
+
+.logo {
+    display: flex;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+
+    @include breakpoint(medium) {
+        font-size: 20px;
+
+        svg {
+            width: 18px;
+
+        }
+    }
+
+    @include breakpoint(small) {
+        font-size: 18px;
+    }
+
+    @include breakpoint(xsmall) {
+        font-size: 12px;
+
+        svg {
+            width: 10px;
+            height: 10px;
+        }
+    }
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    @include breakpoint(xlarge) {
+        font-size: 15px;
+    }
+
+    @include breakpoint(medium) {
+        font-size: 13px;
+    }
+
+    @include breakpoint(small) {
+        font-size: 11px;
+        padding: 0;
+        margin-bottom: 2px;
+    }
+
+    @include breakpoint(small) {
+        font-size: 8px;
+        margin-bottom: 0;
+    }
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 900;
+
+    @include breakpoint(xlarge) {
+        font-size: 34px;
+    }
+
+    @include breakpoint(medium) {
+        font-size: 28px;
+    }
+
+    @include breakpoint(small) {
+        font-size: 22px;
+    }
+
+    @include breakpoint(xsmall) {
+        font-size: 12px;
+    }
+}
+
+input,
+select {
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #D7DADD;
+
+    &::placeholder {
+        color: #9A9CA5;
+    }
+
+    @include breakpoint(xsmall) {
+        border-radius: 1px !important;
+    }
+}
+
+.close {
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #787A80;
+    position: absolute;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    position: relative;
+    -moz-appearance: none;
+    width: 20px !important;
+    height: 20px !important;
+    -webkit-appearance: none;
+}
+
+input[type="checkbox"]:checked {
+    background-color: red;
+}
+
+input[type="checkbox"]:checked::before {
+    top: 44%;
+    left: 53%;
+    color: white;
+    font-size: 14px;
+    content: "\2713";
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    cursor: pointer;
+}

@@ -1,0 +1,178 @@
+.topTitle {
+    overflow: hidden;
+    text-align: center;
+    z-index: 0;
+    position: relative;
+    padding: 160px 0 120px;
+    background: linear-gradient(55.95deg, #FF3F3A30 0%, #F75E0530 100%);
+
+    .container {
+        width: 60%;
+
+        .subtitle {
+            color: #FF3F3A;
+        }
+    }
+
+    img {
+        position: absolute;
+    }
+
+    .circle {
+        left: 0;
+        bottom: -4px;
+    }
+
+    .shapes {
+        left: 10%;
+        top: 30%;
+    }
+
+    .shapesArrow {
+        bottom: 0;
+        right: 10%;
+    }
+
+    .dots {
+        right: 0;
+        top: 20%;
+    }
+}
+
+.talkAbout {
+    display: grid;
+    column-gap: 110px;
+    padding: 80px 0 160px;
+    grid-template-columns: 1fr 0.7fr;
+
+    ul {
+        display: flex;
+        row-gap: 10px;
+        padding-top: 50px;
+        flex-direction: column;
+
+        li {
+            .less {
+                display: flex;
+                column-gap: 8px;
+                margin-bottom: 8px;
+                align-items: center;
+
+                .lesson {
+                    display: flex;
+                    font-size: 18px;
+                    column-gap: 15px;
+                    font-weight: 400;
+                    color: #FF3F3A;
+                    align-items: center;
+                }
+
+                .learnTitle {
+                    font-weight: 700;
+                    justify-self: start;
+                    grid-column-start: 2;
+                }
+            }
+
+            .text {
+                padding-left: 40px;
+            }
+        }
+    }
+
+    .JoinTheEvent {
+        font-weight: 700;
+        padding: 40px 32px;
+        border-radius: 4px;
+        border: 1px solid #E5E8ED;
+        box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08),
+            0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+            0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+            0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+
+        h3 {
+            font-size: 12px;
+            color: #1E212C;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #FF3F3A;
+            margin: 4px 0 8px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #787A80;
+            font-weight: 400;
+            margin-bottom: 32px;
+        }
+
+        .facebook {
+            font-size: 14px;
+            margin: 0 0 32px;
+            text-decoration: underline;
+        }
+
+        button {
+            width: 100%;
+            border: none;
+            color: white;
+            padding: 12px 0;
+            margin-top: 8px;
+            border-radius: 4px;
+            background-color: #FF3F3A;
+        }
+    }
+}
+
+.Speaker {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 35% 51%;
+
+    .faceImage {
+        height: 450px;
+        border-radius: 4px;
+        position: relative;
+        background-color: #FFCF2D;
+
+        .circle {
+            top: -18%;
+            left: -32%;
+            width: 230px;
+            height: 230px;
+            position: absolute;
+        }
+
+        .CuratorImg {
+            left: 50%;
+            bottom: 0;
+            width: 90%;
+            position: absolute;
+            transform: translateX(-50%);
+        }
+    }
+
+    .CuratorDescription {
+        h2 {
+            line-height: 69px;
+        }
+
+        .post {
+            font-size: 18px;
+            color: #787A80;
+        }
+
+        .definition {
+            margin-top: 20px;
+            line-height: 25px;
+        }
+
+        .CuratorSocial {
+            margin-top: 35px;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.aboutUs {
+    display: grid;
+    padding: 160px 0;
+    grid-template-columns: 56% 34%;
+    justify-content: space-between;
+
+    .imageSide {
+        img {
+            width: 100%;
+            height: 520px;
+        } 
+    }
+ 
+    .textSide {
+        .title {
+            padding: 5px 0 30px;
+        }
+
+        ul {
+            row-gap: 8px;
+            display: flex;
+            padding-bottom: 40px;
+            flex-direction: column;
+
+            li {
+                display: flex;
+                column-gap: 16px;
+                line-height: 25.6px;
+
+                span {
+                    padding-top: 3px;
+                }
+            }
+        }
+
+        .moreAboutUs {
+            color: white;
+            border-radius: 4px;
+            padding: 11px 30px;
+            background-color: #FF3F3A;
+        }
+    }
+}
+
+@import './AboutCreatex_media.scss';

@@ -1,0 +1,124 @@
+.ReviewsWrapper {
+    padding: 50px 0 80px;
+    background-color: #B3B7BC40;
+
+    .container {
+        text-align: center;
+
+        .title {
+            line-height: 58px; 
+        }
+
+        .swiper-Root {
+            width: 100%;
+            padding-top: 50px;
+            position: relative;
+
+            .ReviewWrapper {
+                width: 80%;
+                height: 320px;
+                position: static;
+
+                .swiper-pagination-horizontal {
+                    bottom: 0;
+
+                    .swiper-pagination-bullet-active { 
+                        background-color: #424551 !important;
+                    }
+
+                    .swiper-pagination-bullet {
+                        width: 30px;
+                        height: 2px;
+                        margin: 0 5px;
+                        border-radius: 4px;
+                        background-color: #B3B7BC;
+                    }
+                }
+
+                .swiper-button-prev {
+                    &:after {
+                        position: absolute;
+                        content: url('../../../public/images/Line\ \(Stroke\)\.png') !important;
+                    }
+                }
+
+                .swiper-button-next,
+                .swiper-button-prev {
+                    width: 40px;
+                    height: 40px;
+                    padding-bottom: 19px;
+                    border-radius: 50%;
+
+                    &:after {
+                        content: url('../../../public/images/Line\ \(Stroke\)\ \(1\).png');
+
+                    }
+
+                    &:hover {
+                        background-color: #FF3F3A;
+
+                        &::after {
+                            opacity: 0.4;
+                        }
+                    }
+                }
+ 
+                .reviewItem {
+                    height: 280px;
+                    display: grid;
+                    border-radius: 4px;
+                    padding: 40px 100px;
+                    justify-content: start;
+                    background-color: #FFFFFF;
+                    grid-template-columns: 8% 1fr;
+
+                    .braces {
+                        grid-column-start: 1;
+                    }
+
+                    .reviewDescription {
+                        display: grid;
+                        text-align: left;
+                        grid-auto-rows: 1fr 30%;
+
+                        .descrip {
+                            font-size: 18px;
+                            font-weight: 400;
+                            color: #363739;
+                            line-height: 25px;
+                        }
+
+                        .user {
+                            width: 50%;
+                            display: flex;
+                            column-gap: 20px;
+                            align-items: center;
+
+                            p {
+                                font-size: 14px;
+                                line-height: 28px;
+                            }
+
+                            img {
+                                width: 60px;
+                                height: 60px;
+
+                            }
+
+                            .name {
+                                font-weight: 700;
+                            }
+
+                            .position {
+                                color: #787A80;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@import './Review_media.scss';

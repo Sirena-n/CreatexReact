@@ -1,0 +1,99 @@
+@import '../../Styles/_Variables';
+
+@include breakpoint (large) {
+    .certificateWrapper {
+        .certificateDiscription {
+            .title {
+                padding-bottom: 30px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .organisations {
+                column-gap: 30px;
+                padding-top: 30px;
+            }
+        }
+    }
+}
+
+@include breakpoint (medium) {
+    .certificateWrapper {
+        padding: 80px 0 60px;
+
+        .certificateDiscription {
+            .title {
+                padding-bottom: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .organisations {
+                column-gap: 20px;
+                padding-top: 20px;
+            }
+        }
+    }
+}
+
+@include breakpoint (small) {
+    .certificateWrapper {
+        padding: 60px 0 40px;
+
+        .certificateDiscription {
+            .title {
+                padding-bottom: 10px;
+            }
+
+            p {
+                opacity: 0.8;
+                font-size: 12px;
+            }
+
+            .organisations {
+                column-gap: 15px;
+                padding-top: 15px;
+            }
+        }
+    }
+}
+
+@include breakpoint (xsmall) {
+    .certificateWrapper {
+        column-gap: 0;
+        padding: 30px 0 20px;
+
+        .certificateDiscription {
+            .title {
+                padding-bottom: 10px;
+            }
+
+            p {
+                opacity: 0.8;
+                font-size: 8px;
+            }
+
+            .organisations {
+                column-gap: 10px;
+                padding-top: 10px;
+
+                img {
+                    height: 20px;
+                }
+            }
+
+        }
+
+        .certificateIMGWrapper {
+            width: 100%;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+}

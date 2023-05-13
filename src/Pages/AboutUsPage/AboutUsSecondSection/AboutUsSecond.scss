@@ -1,0 +1,151 @@
+.SecondSection {
+    display: flex;
+    row-gap: 160px;
+    flex-direction: column;
+
+    .TeachPrograms {
+        text-align: center;
+
+        .ProgramsWrapper {
+            gap: 30px; 
+            display: grid;
+            padding-top: 50px;
+            grid-template-columns: repeat(3, 1fr);
+
+            .Program {
+                display: none;
+                flex-direction: column;
+
+                .ProgramDescrip {
+                    padding: 20px;
+                    text-align: left;
+                    border-radius: 4px;
+                    border-left: 1px solid #E5E8ED;
+                    border-right: 1px solid #E5E8ED;
+                    border-bottom: 1px solid #E5E8ED;
+
+                    .sphere {
+                        color: white;
+                        padding: 3px 7px 3px 5px;
+                        width: fit-content;
+                        border-radius: 3px;
+                        background-color: #03CEA4;
+                    }
+
+                    .text {
+                        font-size: 14px;
+                        color: #787A80;
+                        overflow: hidden;
+                        margin: 15px 0 20px;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                    }
+
+                    a {
+                        display: flex;
+                        color: black;
+                        column-gap: 10px;
+                        font-weight: 700;
+                        align-items: center;
+
+                        &:hover {
+                            color: red;
+                        }
+
+                        svg {
+                            color: red;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .ProcessBlock {
+        display: grid;
+        column-gap: 200px;
+        align-items: flex-end;
+        grid-template-columns: 1fr 1fr;
+
+        .ProcessWrapper {
+            .title {
+                padding-bottom: 50px;
+            }
+
+            .ProcessInner {
+                display: grid;
+                grid-template-rows: repeat(3, 1fr) 0.9fr;
+
+                .Process {
+                    display: grid;
+                    grid-template-rows: 17% 1fr;
+                    grid-template-columns: 10% 1fr;
+
+                    .circle {
+                        width: 8px;
+                        height: 8px;
+                        grid-column: 1;
+                        align-self: center;
+                        border-radius: 50%;
+                        background-color: red;
+                    }
+
+                    hr {
+                        width: 1px;
+                        height: 100%;
+                        grid-column: 1;
+                        margin-left: 3px;
+                        border: 1px solid #9A9CA550;
+                    }
+
+                    .step {
+                        grid-row: 1;
+                        grid-column: 2;
+                        font-size: 12px;
+                        font-weight: 700;
+                        color: #787A80;
+                        align-self: center;
+
+                    }
+
+                    .ProcessInfo {
+                        padding-bottom: 30px;
+
+                        h4 {
+                            font-size: 18px;
+                            padding: 4px 0 12px;
+                        }
+
+                        p {
+                            color: #787A80;
+                        }
+                    }
+                }
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 90%;
+        }
+
+    }
+
+    .TeamBlock {
+        text-align: center;
+        padding-bottom: 100px;
+
+        .subtitle {
+            letter-spacing: 1px;
+        }
+
+        .TeamWrapper {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+@import './AboutUsSecond_media.scss';

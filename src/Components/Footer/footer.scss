@@ -1,0 +1,152 @@
+footer {
+    color: white;
+    background-color: #1E212C;
+
+    .container {
+        .footerTop {
+            height: 180px;
+            display: grid;
+            column-gap: 70px;
+            padding-top: 80px; 
+            grid-template-columns: repeat(4, 1fr) 2fr;
+
+            .logoAndinfo {
+                width: 280px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .info {
+                    color: #949494;
+                    font-size: 12px;
+                }
+
+                .logo {
+                    color: white;
+                }
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                p {
+                    font-weight: 700;
+                }
+
+                li a {
+                    font-weight: 400;
+                    color: #FFFFFF40;
+                }
+
+                li a:hover {
+                    color: #FF3F3A;
+                }
+            }
+
+            .contactPanel {
+                row-gap: 9px;
+                display: flex;
+                flex-direction: column;
+
+                h4 {
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+
+                p {
+                    font-weight: 400;
+                    color: #FFFFFF40;
+                }
+            }
+
+            .emailForm {
+                .formTitle {
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                }
+
+                .input {
+                    width: 100%;
+                    display: flex;
+                    padding: 10px;
+                    border-radius: 4px;
+                    align-items: center;
+                    margin: 20px 0 15px;
+                    border: 1px solid #ffffff50;
+                    background: rgba(255, 255, 255, 0.12);
+
+                    svg {
+                        font-size: 20px;
+                    }
+
+                    input {
+                        width: 100%;
+                        border: none;
+                        outline: none;
+                        color: white;
+                        background-color: transparent;
+                    }
+                }
+
+                .formDis {
+                    font-size: 10px;
+                    color: #FFFFFF80;
+                }
+            }
+        }
+    }
+
+    .footerBottom {
+        height: 59px;
+        display: flex; 
+        margin-top: 80px;
+        align-items: center;
+        background: #FFFFFF20; 
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .heart {
+                svg {
+                    color: red;
+                    margin: 0 5px;
+                    font-size: 16px;
+                }
+            }
+
+            .toTop { 
+                display: flex;
+                column-gap: 10px;
+                align-items: center;
+
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(201, 12, 12) !important;
+
+                    .arrow {
+                        display: block;
+                    }
+                }
+
+                .arrow {
+                    display: none;
+                    color: white;
+
+                    svg {
+                        font-size: 26px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@import './footer_media.scss';
